@@ -22,7 +22,9 @@ exclude = [
 
 [build-dependencies]
 bindgen = "0.63"
-system-deps = "2.0"
+# First version with fix for non-pkg-config static linking:
+# https://github.com/gdesmott/system-deps/pull/75
+system-deps = "4.0"
 
 [package.metadata.system-deps]
 libgpiod = "2"
