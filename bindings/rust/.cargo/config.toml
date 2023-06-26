@@ -1,0 +1,21 @@
+[target.'cfg(unix)']
+runner = "sudo"
+
+# [target.armv7-unknown-linux-gnueabihf]
+# linker = "arm-poky-linux-gnueabi-gcc"
+# rustflags = [
+#     "-C", "link-arg=-mthumb",
+#     "-C", "link-arg=-mfpu=neon",
+#     "-C", "link-arg=-mfloat-abi=hard",
+#     "-C", "link-arg=-mcpu=cortex-a15",
+#     "-C", "link-arg=--sysroot=/opt/arm-sdk/tmp/sysroots/qemuarm",
+#     "-C", "target-cpu=cortex-a15",
+#   ]
+
+# [target.armv7-unknown-linux-musleabihf]
+# linker = "arm-linux-gnu-gcc"
+# # rustflags = [
+# #     "-C", "link-arg=--sysroot=/opt/arm-sdk/tmp/sysroots/qemuarm",
+# #     "-C", "link-arg=-L/opt/arm-sdk/tmp/sysroots/qemuarm/usr/lib/arm-poky-linux-gnueabi/12.2.0/",
+# #     "-C", "target-cpu=cortex-a15",
+# #   ]
