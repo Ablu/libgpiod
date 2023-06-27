@@ -12,6 +12,8 @@
 //! The API is logically split into several parts such as: GPIO chip & line
 //! operators, GPIO events handling etc.
 
+#![deny(warnings)]
+
 use std::ffi::CStr;
 use std::fs;
 use std::os::raw::c_char;

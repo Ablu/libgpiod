@@ -2,6 +2,8 @@
 // SPDX-FileCopyrightText: 2022 Linaro Ltd.
 // SPDX-FileCopyrightText: 2022 Viresh Kumar <viresh.kumar@linaro.org>
 
+#![deny(warnings)]
+
 use libgpiod::{Error, OperationType, Result};
 
 #[allow(non_camel_case_types, non_upper_case_globals)]
